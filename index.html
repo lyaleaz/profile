@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav cantainer">
+        <a href="#" class="nav__logo"> Lyale</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-info-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-bag-alt nav__icon"></i> Services</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-image nav__icon"></i> Projects</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contactme" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contactme
+              </a>
+            </li>
+            </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+              </div>
+    
+        <div class="nav__btns">
+            <i class="uil uil-moon nav__icon" id="theme-button"></i>
+            
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps nav__icon"></i>
+              
+       
+            </div>
+        </div>
+    
+         
+      </nav>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/lyale-azbarka-b226b0231"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a
+                href="https://github.com/lyaleaz"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+
+                  <image
+                    class="home__blob-img"
+                    href="assets/img/back.jpg"
+                    width="200"
+                    height="200"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__titile">Hi, I'am Lyale</h1>
+              <h3 class="home__subtitle">
+                Software Engineer 🕸 | Front-End developer | Applications
+                developer 📱 | Web developer👩‍💻
+              </h3>
+              <p class="home__description">
+                I'm a motivated and versatile developer with expertise in
+                various languages and frameworks.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets/img/6.jpg" alt="" class="about__img" />
+          <div class="about__data">
+            <p class="about__description">
+              B.Sc in Software Engineerin, Front-End developer and Web developer
+              and Applications developer ,with extensive knoeledge and I have
+              had the opportunity to gain experience working on several projects
+              throughout my academic career.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name"
+                  >Years <br />
+                  experience</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title">15+</span>
+                <span class="about__info-name"
+                  >Completed <br />
+                  project</span
+                >
+              </div>
+            </div>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="assets/pdf/Lyale Azbarka CV.pdf"
+                class="button button--flex"
+              >
+                Download CV<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+<!--==================== SKILLS ====================-->
+<section class="skills section" id="skills">
+  <h2 class="section__title">Skills</h2>
+  <span class="section__subtitle">My technical level</span>
+  <div class="skills__container container grid">
+    <!--skills1-->
+    <div class="skills__content skills__open">
+      <div class="skills__header">
+        <i class="uil uil-brackets-curly skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Frontend developer</h1>
+          <span class="skills__subtitle"></span>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">HTML</h3>
+          </div>
+        </div>
+         <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">XML</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">C, C++, C#</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">React.js</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">JavaScript</h3>
+          </div>
+        </div>
+
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">Wasm</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">CI/CD</h3>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!--skills2-->
+    <div class="skills__content skills__close">
+      <div class="skills__header">
+        <i class="uil uil-server-network skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Backend developer</h1>
+          <span class="skills__subtitle"></span>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">Java</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">Python</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">Firebase</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">MongoDB</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">Node.js</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">Django</h3>
+          </div>
+        </div>
+         <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">PHP</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">ASP.NET</h3>
+          </div>
+        </div>
+         <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">CI/CD</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills__content skills__close">
+      <div class="skills__header">
+        <i class="uil uil-swatchbook skills__icon"></i>
+        <div>
+          <h1 class="skills__title">Operating system</h1>
+          <span class="skills__subtitle"></span>
+        </div>
+        <i class="uil uil-angle-down skills__arrow"></i>
+      </div>
+      <div class="skills__list grid">
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">Windows</h3>
+          </div>
+        </div>
+        <div class="skills__data">
+          <div class="skills__titles">
+            <h3 class="skills__name">Linux</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONENT1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1  ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Software Engineer</h3>
+                  <span class="qualification__subtitle"
+                    >Sami Shamoon College of Engineering</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023 - Present
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION  2  ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Full Stack developer</h3>
+                  <span class="qualification__subtitle">A-tech</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023 - Present
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Mentor and course tutor</h3>
+                  <span class="qualification__subtitle"
+                    >Siraj Technologies</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021 - Present
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Instructor</h3>
+                  <span class="qualification__subtitle"
+                    >Albeironi Association for sciences and languages</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023 - Present
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==================== SERVICES ====================-->
+      <section class="qualification section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What i offer</span>
+        <div class="services__container container grid">
+          <!--====services 1==== -->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-arrow services__icon"></i>
+              <h3 class="services__title">
+                Frontend <br />
+                Developer
+              </h3>
+            </div>
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Frontend <br />
+                  Developer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>
+                      Web page development,I code in HTML, CSS, and JavaScript
+                      to create web pages.
+                    </p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I make websites work on all devices and screen sizes.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I use frameworks like React for dynamic apps</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I collaborate using Git for code version control.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>
+                      I test and fix bugs in the frontend and write unit tests.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--===services2====-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-server-network services__icon"></i>
+              <h3 class="services__title">
+                Backend <br />
+                Developer
+              </h3>
+            </div>
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Backend <br />
+                  Developer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>
+                      I write server-side code in languages like Python or Java.
+                    </p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I manage databases to store and retrieve data.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I write tests to ensure code reliability.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I handle errors and maintain detailed logs.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>I monitor performance and troubleshoot issues.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Project</h2>
+        <span class="section__subtitle">Most recent projects</span>
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/novill.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Nov-ill</h3>
+                <p class="portfolio__description">
+                  Nov-ill is a digital store app for private pharmacies,
+                  enabling them to deliver their products through a digital
+                  interface. The system aims to provide customers with easy
+                  access to private pharmacy products, patients can upload a
+                  prescription and the medications are delivered to their homes,
+                  Project management and principles Meister Task. I was a
+                  supporter in the Front-End part of the project.
+                </p>
+                <a
+                  href="https://github.com/moh12asad/Novill"
+                  target="_blank"
+                  class="home__social-icon"
+                >
+                  <i class="uil uil-github-alt"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 2====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/4.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Saving Tours</h3>
+                <p class="portfolio__description">
+                  I worked on a web application for booking bus tickets that
+                  integrated Google Maps API to calculate ticket prices based on
+                  passenger routes. My role involved supporting both the
+                  Front-End and Back-End development, as well as utilizing
+                  project management principles through Jira.
+                </p>
+                <a
+                  href="https://github.com/Project-Management-SCE/PM2022_TEAM_12"
+                  target="_blank"
+                  class="home__social-icon"
+                >
+                  <i class="uil uil-github-alt"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 3====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/3.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Coffe Shoop</h3>
+                <p class="portfolio__description">
+                  A coffee shop administration and management web application.
+                  Three main users: coffee shop manager, workers, and customers.
+                  The app allows the customer to place an order to the coffee
+                  shop and pay for it.
+                </p>
+                <a
+                  href="https://github.com/lyaleaz/ProjectCoffee"
+                  target="_blank"
+                  class="home__social-icon"
+                >
+                  <i class="uil uil-github-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev swiper-portfolio-icon">
+            <i class="uil uil-angle-left-b"></i>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+   
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonial</h2>
+        <div class="testimonial__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== TESTIMONIAL 1 ====================-->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="assets/img/person.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+                  <div>
+                    <h3 class="testimonial__name">Alaa Abu Ghalioun</h3>
+                    <span class="testimonial__client"
+                      >Mentoring program manager</span
+                    >
+                  </div>
+                </div>
+                
+              </div>
+
+              <p class="testimonial__description">
+                As a participant in our mentoring program, Lyale has shown
+                exceptional intelligence, dedication, and leadership qualities.
+                During her time as a mentee in our program, Lyale demonstrated a
+                strong desire to learn and grow. She actively engaged in various
+                activities, absorbing knowledge with enthusiasm and displaying a
+                natural aptitude for software engineering concepts. Her
+                dedication to her studies and her commitment to continuous
+                improvement was evident throughout her journey as a mentee.
+                Lyale exhibited remarkable leadership and communication skills,
+                guiding and supporting her mentees with empathy and patience.
+                Her ability to inspire and motivate others is a testament to her
+                strong character and genuine desire to help those around her
+                succeed. Given her experiences as both a mentee and mentor,
+                Lyale has developed a deep understanding of the intricacies of
+                the software engineering field. Her hands-on experiences,
+                coupled with her exceptional problem-solving abilities, make her
+                a valuable asset to any software engineering team. have no doubt
+                that Lyale's intelligence, dedication, and leadership gualities
+                will make her a standout candidate in her pursuit of a software
+                engineering position. Her ability to adapt and grow, coupled
+                with her strong technical skills, positions her as an ideal
+                candidate for any software engineering role.
+              </p>
+            </div>
+
+            <!--==================== TESTIMONIAL 2 ====================-->
+            <div class="testomonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="assets/img/person.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+                  <div>
+                    <h3 class="testimonial__name">Safaa Azbarqa</h3>
+                    <span class="testimonial__client"
+                      >Filestore Engineer Intern at Google</span
+                    >
+                  </div>
+                </div>
+
+                
+              </div>
+              <p class="testimonial__description">
+                As someone who has closely followed Lyale's software engineering
+                journey, I can confidently say that she is an outstanding
+                software engineer. She actively collaborates with colleagues,
+                readily shares knowledge, and contributes to a positive and
+                inclusive team atmosphere. Her excellent communication skills
+                make her effective in conveying technical concepts to both
+                technical and non-technical stakeholders. I highly recommend
+                Lyale as a software engineer, as I know she will make valuable
+                contributions to any team she joins.
+              </p>
+            </div>
+
+            <!--==================== TESTIMONIAL 3 ====================-->
+            <div class="testomonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="assets/img/person.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+                  <div>
+                    <h3 class="testimonial__name">Abeer Tlalka</h3>
+                    <span class="testimonial__client"
+                      >Software Engineerin student</span
+                    >
+                  </div>
+                </div>
+                
+              </div>
+              <p class="testimonial__description">
+                I had the pleasure of studying and working on a project with
+                Lyale 📚 Her strong work ethic, problem-solving skills, and
+                commitment to tasks are impressive. In our project, she
+                displayed her technical expertise, leadership abilities, and
+                innovative thinking. She communicates effectively, promotes a
+                positive team environment, and her passion for Software
+                Development truly motivates those around her. Wishing you all
+                the best and success Partner 🤍
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination swiper-pagination-testimonial"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contactme">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+            <a href="https://api.whatsapp.com/send?phone=972526278585&text=Hello,%20more%20information!"
+>
+              <i
+                class="uil uil-whatsapp contact__icon"
+              ></i>
+              </a>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+972 52-627-8585</span>
+              </div> 
+            </div>
+
+            <div class="contact__information">
+            <a href="mailto:lyale000az@gmail.com">
+              <i class="uil uil-envelope contact__icon"></i>
+              </a>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">Lyale000az@gmail.com</span>
+              </div>
+            </div>
+          </div>
+
+
+          <form action="" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Name</label>
+                        <input type="text" class="contact__input"></input>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Email</label>
+                        <input type="email" class="contact__input"></input>
+                    </div>
+ </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Title</label>
+                        <input type="text" class="contact__input"></input>
+                    </div>
+
+               
+                <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                 </div>
+                 <div>
+                  <a href="#" class="buttons button--flex">
+                      Send Message
+                      <i class="uil uil-message button__icons"></i>
+                  </a>
+                 </div>
+            
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+          <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Lyale</h1>
+            <span class="footer__subtitle">Frontend developer</span>
+          </div>
+          <ul class="footer__links">
+          <li>
+          <a href="#services" class="footer__link">Services</a>
+          </li>
+            <li>
+          <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+            <li>
+          <a href="#contact" class="footer__link">Contactme</a>
+          </li>
+          </ul>
+
+      
+          </div>
+
+          <p class="footer__copy">&#169; Badimcode. All right reserved</p>
+        </div>
+    
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+      <a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
